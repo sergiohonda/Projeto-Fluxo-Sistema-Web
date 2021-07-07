@@ -3,12 +3,33 @@
     padding: 0px;
 }
 
+.main{
+    background-color: #8cbcac;
+    display: flex;
+    flex-direction: column;
+    gap: 50px;
+}
+
 .area_paciente{
     display: flex;
     flex-direction: column;
+    gap: 50px;
 }
 
 .informacoes{
     display: flex;
     justify-content: space-evenly;
+}
+
+.bloco_direita{
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+}
+
+.botoes{
+    display: flex;
+    justify-content: center;
+    gap: 100px;
+    margin-bottom: 2%;
 }

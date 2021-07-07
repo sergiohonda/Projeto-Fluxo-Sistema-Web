@@ -5,6 +5,8 @@ import Indicador_paciente from "./Components/Indicador_paciente"
 import Receitas from "./Components/Receitas"
 import Consultas from "./Components/Consultas"
 import Ultima_consulta from "./Components/Ultima_consulta"
+import Botao_consulta from "./Components/Botao_consulta"
+import Botao_paciente from "./Components/Botao_paciente"
 
 
 function App() {
@@ -45,7 +47,8 @@ function App() {
           </div>
         </div>
         <div className="botoes">
-
+          <Botao_consulta/>
+          <Botao_paciente/>
         </div>
       </div>
     </>

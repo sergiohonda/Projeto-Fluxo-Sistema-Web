@@ -2,6 +2,6 @@ import "./styles.css"
 
 export default function Indicador_paciente(){
     return(
-        <h3>Paciente</h3>
+        <h2 className="icone">Paciente</h2>
     )
 }

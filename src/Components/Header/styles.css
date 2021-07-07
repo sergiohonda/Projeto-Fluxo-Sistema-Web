@@ -1,5 +1,5 @@
 header{
-    height: 100px;
+    height: 102px;
     background-color: #234374;
     display: flex;
     justify-content: space-evenly;
@@ -15,6 +15,16 @@ h1{
     color: white;
 }
 
-h3{
+.menu button{
     color: #8cbcac;
+    font-weight: bold;
+    font-size: large;
+    cursor: pointer;
+    padding: 5px 10px;
+    background-color: #234374;
+    border: none;
+}
+
+.selected{
+    border-bottom: 2px solid white;
 }

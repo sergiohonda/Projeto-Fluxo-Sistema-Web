@@ -8,6 +8,7 @@
     display: flex;
     flex-direction: column;
     gap: 50px;
+    height: 85vh;
 }
 
 .area_paciente{
@@ -31,5 +32,4 @@
     display: flex;
     justify-content: center;
     gap: 100px;
-    margin-bottom: 2%;
 }

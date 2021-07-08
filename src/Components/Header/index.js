@@ -9,6 +9,7 @@ export default function Header(){
                 <button>Médicos</button>
                 <button>Consultas</button>
                 <button>Exames</button>
+                <button>Receitas</button>
             </div>
         </header>
     )

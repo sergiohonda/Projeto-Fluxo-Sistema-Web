@@ -1,5 +1,5 @@
 header{
-    height: 102px;
+    height: 15vh;
     background-color: #234374;
     display: flex;
     justify-content: space-evenly;
@@ -21,7 +21,8 @@ h1{
     font-size: large;
     cursor: pointer;
     padding: 5px 10px;
-    background-color: #234374;
+    background-color: #1d375e;
+    border-radius: 15px;
     border: none;
 }
 

@@ -11,7 +11,7 @@ import Botao_paciente from "./Components/Botao_paciente"
 
 function App() {
   return (
-    <>
+    <div className="pagina">
       <Header/>
       <div className="main">
         <div className="area_paciente">
@@ -21,8 +21,7 @@ function App() {
               nome="João Paulo"
               idade={23}
               genero="Masculino"
-              ddd={21}
-              contato={988546712}
+              contato={21988546712}
               rg={284839641}
               cpf={16586200920}
               estado_civil="Solteiro"
@@ -33,11 +32,8 @@ function App() {
                 medicamentos = {["Novalgina", "Dipirona", "Paracetamol"]}
               />
               <Consultas
-                dia={10}
-                mes={12}
-                ano={2021}
-                hora={10}
-                minuto={30}
+                data="10/12/2021"
+                hora="10:30"
               />
               <Ultima_consulta
                 temperatura={37}
@@ -51,7 +47,7 @@ function App() {
           <Botao_paciente/>
         </div>
       </div>
-    </>
+    </div>
   );
 }
 

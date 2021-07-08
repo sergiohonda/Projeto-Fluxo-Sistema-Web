@@ -1,6 +1,6 @@
 .botao_paciente{
-    border:white;
-    background-color: white;
-    padding: 10px 10px;
+    background-color: #234374;
+    padding: 7px 7px;
     cursor: pointer;
+    border-radius: 20px;
 }

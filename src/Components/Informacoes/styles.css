@@ -1,0 +1,10 @@
+.bloco_direita{
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+}
+
+.informacoes{
+    display: flex;
+    justify-content: space-evenly;
+}
